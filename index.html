@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Box Shadow Generator</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content-square">
+                <div class="square"></div>
+            </div>
+            <div class="properties-square">
+                <h2>Square Properties</h2>
+                <form>
+                    <div class="inputs-label">
+                        <label for="Size">Size</label>
+                        <input type="range" name="Size" min="0" max="200"  id="size">
+                    </div>
+                    <div class="inputs-label">
+                        <label for="b-radius">Border radius</label>
+                        <input type="range" name="b-radius" min="0" max="200" id="border-radius">
+                    </div>
+                    <h3>Box-Shadow</h3>
+                    <div class="inputs-label">
+                        <label for="displazament-x">Displazament-x</label>
+                        <input type="range" name="displazament-x" min="-100" max="100" id="d-horizontal" class="box-shadow">
+                    </div>
+                    <div class="inputs-label">
+                        <label for="displazament-y">Displazament-y</label>
+                        <input type="range" name="displazament-y" value="0" min="-100" max="100"  id="d-vertical" class="box-shadow">
+                    </div>
+                    <div class="inputs-label">
+                        <label for="blur">Blur radius</label>
+                        <input type="range" name="blur" id="blur" class="box-shadow">
+                    </div>
+                    <div class="inputs-label">
+                        <label for="spreadRadius">spread radius</label>
+                        <input type="range" name="spreadRadius"  id="spreadRadius" class="box-shadow">
+                    </div>
+                    <div class="inputs-label">
+                        <label for="color">shadow color</label>
+                        <input type="color" name="color"  id="color">
+                    </div>
+                </form>
+                <div class="properties-text">
+                    <div class="prop-Text1 textline"></div>
+                    <div class="prop-Text2 textline"></div>
+                    <div class="prop-Text3 textline"></div>
+                    <div class="prop-Text4 textline"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+   
+</body>
+
+<footer>
+    <p><i> Hecho por Luis Diego Cantillo Meza  &#9813</i></p>
+</footer>
+
+<script src="./app.js"></script>
+</html>
