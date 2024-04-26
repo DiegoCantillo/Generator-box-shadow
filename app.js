@@ -11,6 +11,11 @@ const propHeight = document.querySelector(".prop-Text2");
 const propBorderRadius = document.querySelector(".prop-Text3");
 const propBoxShadow = document.querySelector(".prop-Text4");
 const allShadow = document.querySelectorAll(".box-shadow");
+const inputs = document.querySelectorAll('input');
+
+inputs.forEach((input)=> {
+    input.value = 0;
+})
 
 for(let i = 0; i < allShadow.length; i++){
     allShadow[i].addEventListener("input", rangeActive)
