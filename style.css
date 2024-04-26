@@ -57,7 +57,7 @@ main .container .square{
     border: 1px solid black;
 
     display: flex;
-    background-color: aqua;
+    background-color: rgb(254, 255, 255);
     /* box-shadow: 0px 0px 0px 30px rgba(0, 0, 0, 0.2);  */
 }
 
